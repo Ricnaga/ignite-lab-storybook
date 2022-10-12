@@ -5,16 +5,26 @@ import { ReactNode } from "react";
 export interface HeadingProps {
   size?: "sm" | "md" | "lg";
   children: ReactNode;
-  asChild: boolean;
+  asChild?: boolean;
+  className?: string;
 }
 
-export function Heading({ size = "md", children, asChild }: HeadingProps) {
+export function Heading({
+  size = "md",
+  children,
+  asChild,
+  className,
+}: HeadingProps) {
   const Comp = asChild ? Slot : "h2";
-  const className = clsx("text-gray-100 font-sans font-bold", {
-    "text-lg": size === "sm",
-    "text-xl": size === "md",
-    "text-2xl": size === "lg",
-  });
+  const newClassName = clsx(
+    "text-gray-100 font-sans font-bold",
+    {
+      "text-lg": size === "sm",
+      "text-xl": size === "md",
+      "text-2xl": size === "lg",
+    },
+    className
+  );
 
-  return <Comp className={className}>{children}</Comp>;
+  return <Comp className={newClassName}>{children}</Comp>;
 }
