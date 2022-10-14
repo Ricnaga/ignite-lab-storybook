@@ -2,7 +2,7 @@
 <img src="./cover.jpg" />
 </div>
 
-</div> -->
+</div
 <div align="center">
 
 # Ignite Lab - Storybook
