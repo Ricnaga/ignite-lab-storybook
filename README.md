@@ -14,7 +14,8 @@
 ### <div align="center"> Aplicação em Reactjs/Typescript, abordando conceitos sobre: </div>
 
 - [Storybook](https://storybook.js.org/) - Documentação de frontend
-- [Storybook-jest](https://storybook.js.org/addons/@storybook/addon-jest) - Testes nos components da documentação do Storybook
+- [Storybook-interactions](https://storybook.js.org/docs/react/essentials/interactions) - Testes nos components da documentação do Storybook
+- [MSW](https://mswjs.io/) - Mock para testes em funcionalidades assíncronas
 
 ## <div align="center">Requisitos</div>
 
