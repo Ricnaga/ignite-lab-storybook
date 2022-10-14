@@ -13,8 +13,8 @@
 
 ### <div align="center"> Aplicação em Reactjs/Typescript, abordando conceitos sobre: </div>
 
-- [Storybook](https://www.typescriptlang.org/) - Tipagens avançadas
-- [Storybook-jest](https://headlessui.com/) - UI para tailwind
+- [Storybook](https://storybook.js.org/) - Documentação de frontend
+- [Storybook-jest](https://storybook.js.org/addons/@storybook/addon-jest) - Testes nos components da documentação do Storybook
 
 ## <div align="center">Requisitos</div>
 
